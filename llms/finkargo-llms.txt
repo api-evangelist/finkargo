@@ -1,0 +1,33 @@
+# Finkargo
+
+> Finkargo is a Latin American foreign-trade commerce platform that helps importers overcome the operational and financial barriers to growing their import businesses. It combines supplier financing, market intelligence, supplier verification, and cargo insurance into a single import-operations workflow across Colombia and Mexico.
+
+Note: Finkargo does not currently publish a public developer API, OpenAPI specification, or developer portal. This file is generated from the API Evangelist catalog profile and links to the company's public product and legal surfaces.
+
+## Products
+- [Paga — supplier financing](https://www.finkargo.com/): Alternative credit of up to USD $2.7M with 30–150 day payment terms for businesses importing over USD $70,000 annually.
+- [Analiza — market intelligence](https://www.finkargo.com/): Personalized data-analytics dashboards tailored to specific industries to turn trade data into strategic decisions.
+- [Verifica — supplier verification](https://www.finkargo.com/): Evaluate product quality and supplier legitimacy globally before importing.
+- [Protege — cargo insurance](https://www.finkargo.com/): Warehouse-to-warehouse shipment coverage with competitive pricing and no deductibles.
+
+## Access
+- [Sign Up](https://app.finkargo.com.co/auth/signup)
+- [Login](https://app.finkargo.com.co/auth/login)
+
+## Docs
+- [Company / About (Nosotros)](https://www.finkargo.com/nosotros/)
+- [Blog](https://www.finkargo.com/blog/)
+- [Finkargo Academy](https://www.finkargo.com/)
+
+## Legal
+- [Terms and Conditions](https://www.finkargo.com/termsandconditions/)
+- [Privacy Policy](https://www.finkargo.com/politicas_privacidad/)
+- [Personal Data Treatment](https://www.finkargo.com/tratamiento_datos_personales/)
+
+## Support
+- [PQRS support form](https://docs.google.com/forms/d/e/1FAIpQLSd3ZIYsNEnMDa7rRWDs1ZfX9egMI9Izx-jFX5lx4JZZzgSMhA/viewform)
+- tech@finkargo.com
+
+## Company
+- [Website](https://www.finkargo.com/)
+- [GitHub organization (Finkargo Tech)](https://github.com/finkargo)

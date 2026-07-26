@@ -1,8 +1,30 @@
 aid: finkargo
 name: Finkargo
-description: 'Finkargo is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Finkargo is a Latin American foreign-trade commerce platform that helps
+  importers overcome the operational and financial barriers to growing their
+  import businesses. Its product suite spans Paga (alternative supplier
+  financing with revolving USD credit lines and 30-150 day terms), Analiza
+  (market-intelligence dashboards that turn trade data into strategic
+  decisions), Verifica (global supplier verification for product quality and
+  legitimacy), and Protege (warehouse-to-warehouse cargo insurance). Operating
+  across Colombia and Mexico and backed by QED Investors, Finkargo digitizes the
+  full import-operations lifecycle from evaluating suppliers and planning
+  imports to financing, transport, and arrival. Finkargo does not currently
+  publish a public developer API or OpenAPI specification; this profile captures
+  the company's public product, legal, and security surfaces.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.finkargo.com/finkargo/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/finkargo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Trade Finance
+- Supply Chain
+- Import Financing
+- Working Capital
+- Latin America
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/finkargo-domain-security.yml
 - type: Website
   url: https://www.finkargo.com/
+- type: Blog
+  url: https://www.finkargo.com/blog/
+- type: SignUp
+  url: https://app.finkargo.com.co/auth/signup
+- type: Login
+  url: https://app.finkargo.com.co/auth/login
+- type: Support
+  url: https://docs.google.com/forms/d/e/1FAIpQLSd3ZIYsNEnMDa7rRWDs1ZfX9egMI9Izx-jFX5lx4JZZzgSMhA/viewform
+- type: TermsOfService
+  url: https://www.finkargo.com/termsandconditions/
+- type: PrivacyPolicy
+  url: https://www.finkargo.com/politicas_privacidad/
+- type: GitHubOrganization
+  url: https://github.com/finkargo
+- type: LLMsTxt
+  url: llms/finkargo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
